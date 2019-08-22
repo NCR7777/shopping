@@ -1,0 +1,25 @@
+<div id="siteMenu">
+    <ul class="row navMenu">
+        <li class="col-xs-3">
+            <a href="${pageContext.request.contextPath}/index.jsp">商城首页</a>
+        </li>
+        <li class="col-xs-3">
+            <a href="${pageContext.request.contextPath}/myOrder.jsp">我的订单</a>
+        </li>
+        <li class="col-xs-3">
+            <a href="${pageContext.request.contextPath}/myCart.jsp">购物车</a>
+        </li>
+        <c:if test="${empty sessionScope.user_nickname}">
+            <li class="col-xs-3">
+                <a href="${pageContext.request.contextPath}/login.jsp">登录</a>
+                /
+                <a href="${pageContext.request.contextPath}/register.jsp">注册</a>
+            </li>
+        </c:if>
+        <c:if test="${not empty sessionScope.user_nickname}">
+            <li class="col-xs-3">
+                <a href="${pageContext.request.contextPath}/myInfo.jsp">我的信息</a>
+            </li>
+        </c:if>
+    </ul>
+</div>

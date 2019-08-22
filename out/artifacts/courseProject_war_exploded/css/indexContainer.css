@@ -1,0 +1,55 @@
+.commodity{
+    margin-top:15px;
+    padding-right: 15px;
+}
+
+.col-md-4{
+    margin-bottom: 15px;
+    padding-right: 0;
+}
+
+.goods{
+    padding: 0;
+}
+
+.goods img{
+    width: 100%;
+    height: 340px;
+}
+
+.goodsTitle{
+    margin-top: 10px;
+    width: 100%;
+}
+.goodsTitle a {
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+.goodsTitle a:hover{
+    color: darkred;
+}
+
+.goodsPrice {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    float: right;
+    color: #2aabd2;
+}
+
+.goodsPrice span{
+    font-size: 20px;
+    color: mediumvioletred;
+}
+
+@media (max-width: 768px){
+    .col-md-4{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .col-md-4{
+        width: 50%;
+    }
+}

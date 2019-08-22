@@ -1,0 +1,11 @@
+#user_address,#user_address_another{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+#user_pay_channel img {
+    display: none;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}

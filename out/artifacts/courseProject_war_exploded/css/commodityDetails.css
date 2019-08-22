@@ -1,0 +1,97 @@
+.goodsName {
+    margin: 15px 15px 0;
+    font-size: 18px;
+    color: #8c8c8c;
+}
+
+.goodsPicture {
+    width: 100%;
+}
+
+.col-xs-7 ul {
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.QRCode img {
+    width: 100%;
+    margin-top: 70%;
+    margin-bottom: 0;
+}
+
+.first {
+    font-size: 20px;
+}
+
+.other {
+    line-height: 80px;
+}
+
+.other hr {
+    background-color: #0f0f0f;
+    height: 1px;
+}
+
+.col-md-5, .col-md-7 {
+    margin-top: 15px;
+    padding: 0;
+}
+
+.col-md-5 {
+    background: linear-gradient(135deg, #0B5E9E 0, #F8626E 100%);
+    color: white;
+    padding: 15px;
+}
+
+.text-center {
+    font-size: 18px;
+}
+
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .other {
+        line-height: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .QRCode img {
+        margin-top: 30%;
+    }
+    .other {
+        line-height: 100px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .other {
+        line-height: 40px;
+        font-size: 17px;
+    }
+    .QRCode img {
+        margin-top: 30%;
+    }
+    .first{
+        font-size: 18px;
+    }
+    .text-center{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px){
+.other {
+    line-height: 35px;
+    font-size: 14px;
+}
+.QRCode img {
+    margin-top: 30%;
+}
+.first{
+    font-size: 15px;
+}
+.text-center{
+    font-size: 14px;
+}
+}
